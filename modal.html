@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="icomoon/icofont.css">
+    <title>Login Form</title>
+</head>
+
+<body>
+    <section class="dss_login_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="modal fade" id="myModal"  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static"  > <!-------------class to stop modal--------------->
+                        <div class=" modal-dialog modal-xl">
+                            <div class="modal-content">
+<!---------------------------------------- Modal Header -------------------------------------------------------->     
+                            <div class="modal-header p-0 ">
+                                <div class="">
+                                    <p class=" pt-2 pl-3 mb-0 font-weight-bold ">Create Promotion</p>
+                                </div>
+                                <div>
+                                    <p><i class="far fa-window-close text-black-50 h4 pt-2 pl-2 mb-0 pr-2" data-dismiss="modal"></i></p> 
+                                </div>
+                            </div>
+<!---------------------------------------- Modal Body -------------------------------------------------------->                            
+                            <div class="modal-body p-0">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <form>
+                                                <div class="form-row">
+                                                    <div  class="form-group col-md-6 pr-3 ">
+                                                        <label for="inputEmail4">Memo No</label>
+                                                        <input type="email" class="form-control input_shadow" id="inputEmail4" placeholder="Memo No">
+                                                    </div>
+                                                    <!--------- Calendar Icon -------->
+                                                    <div class="form-group col-md-6 calendar ">
+                                                
+                                                        <label for="inputPassword4">Memo Date </label>
+                                                        <input type="email" class="form-control input_shadow" id="inputPassword4"placeholder="Memo">
+                                                        <span class=" icon-Calendar-icon calendar_icon"> </span>
+                                                    </div>
+                                                    <div class="form-group col-md-6 pr-3">
+                                                        <label for="inputEmail4">Promotion Date</label>
+                                                        <input type="email" class="form-control input_shadow" id="inputEmail4" placeholder="Promotion Date">
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputPassword4">Issue No</label>
+                                                        <input type="email" class="form-control input_shadow" id="inputPassword4" placeholder="Issue No">
+                                                    </div>
+                                                    <div class="form-group col-md-6 pr-3">
+                                                        <label for="inputState">Posting Type</label>
+                                                        <select id="inputState" class="form-control">
+                                                            <option selected>Choose...</option>
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                            <option>3</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                        <label for="inputState">Pay Grade</label>
+                                                        <select id="inputState" class="form-control">
+                                                            <option selected>Choose...</option>
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                            <option>3</option>
+                                                        </select>
+                                                    </div>
+
+
+                                                    <div class="form-group col-md-6 pr-3">
+                                                            <label for="inputEmail4">Pay Scale</label>
+                                                            <input type="email" class="form-control input_shadow" id="inputEmail4" placeholder="Pay Scale">
+                                                    </div>
+                                                    <div class="form-group col-md-6">
+                                                            <label for="inputPassword4">Basic Pay</label>
+                                                            <input type="email" class="form-control input_shadow" id="inputPassword4" placeholder="Basic Pay">
+                                                    </div>
+
+                                                    <div class="form-group col-md-12">
+                                                        <div class="mb-3">
+                                                            <label for="validationTextarea">Notes</label>
+                                                            <textarea class="form-control pb-5 " id="validationTextarea" placeholder="Current Position" required></textarea>
+                                                                    
+                                                        </div>
+                                                    </div>
+                                                            
+                                                </div>
+<!---------------------------------------- Modal Body Buttons -------------------------------------------------------->  
+                                                <div class="form-row ">
+                                                    <div class="col-md-6 text-lg-left text-md-center footer_button_choose">
+                                                        <div class="form-group mt-0 body_button d-inline-block mr-2">
+                                                            <label for="exampleFormControlFile1">Upload Files</label>
+                                                            <div class=" border p-2 rounded button_shadow">
+                                                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                            </div>
+                                                            
+                                                        </div>
+                                                        <div class="form-group mt-0 body_button d-inline-block">
+                                                            <label for="exampleFormControlFile1">Upload Files</label>
+                                                            <div class=" border p-2 rounded button_shadow">
+                                                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 text-lg-right modal_body_button text-right text-md-center">
+                                                        <div class="form-group mt-0 d-inline  mr-2">
+                                                            <button type="button" class="btn btn-outline-success  body_buttonbg ">Select Person to Notify</button>
+                                                        </div>
+                                                        <div class="form-group mt-0 d-inline">
+                                                            <button type="button" class="btn btn-outline-success  body_buttonbg body_button_second">Select Person to Notify</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>   
+                                    </div>
+                                    
+                                </div>
+                            </div>
+<!---------------------------------------- Modal Footer-------------------------------------------------------->                              
+                            <div class="modal-footer">
+                                <div class="row m-auto">
+                                    <div class="d-flex justify-content-center footer_button">
+                                        <div><button type="button" class="btn btn-light footer_button mr-3 "> <i class="fas fa-arrow-left"></i> <p class=" d-inline">back</p> </button></div>
+                                        <div><button type="button" class="btn btn-light footer_button mr-3">Save</button> </div>
+                                        <div><button type="button" class="btn btn-light footer_button"><p class=" d-inline"> <span class=" text-success">Submit</span> </p> <i class="fas fa-arrow-right text-danger "></i></button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <a href="" data-toggle="modal" data-target="#myModal">open modal</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        $('#myModal').modal({
+    backdrop: 'static',
+    keyboard: false
+})
+    </script>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

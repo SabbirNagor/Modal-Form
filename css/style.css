@@ -1,0 +1,203 @@
+/*------------------ modal dafault-----------------*/
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #F1F6FC;
+}
+
+.dss_login_section {
+    padding: 30px 0;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+input:focus{
+    border: #f7fbfa !important;
+}
+
+select:focus{
+    border: #f7fbfa !important;
+} 
+textarea:focus{
+    border: #f7fbfa !important;
+}
+
+/*------------------ modal header-----------------*/
+.modal-content{
+    box-shadow: 4px 7px 13px #c1c1c1;
+}
+.modal-header{
+    height: 50px;
+    box-shadow: 0px 2px 5px #d7dada;
+
+}
+.modal-header p{
+    color: #008e4c;
+}
+.form-group{
+    margin-bottom: 0px;
+    
+}
+/*------------------ Modal Body-----------------*/
+.modal-body{
+    font-size: 14px;
+    font-weight: bold;
+    color: #444444;
+}
+.modal-body .form-group{
+    margin-top: 14px;
+}
+.modal-body .form-group label{
+    margin-bottom: .3em;
+}
+.modal-body .form-group .form-control{
+    font-size: 15px;
+}
+.modal-body input{
+    height: 45px;
+}
+.modal-body #inputState{
+    height: 45px;
+}
+.modal_body_gap{
+    padding-right: 30px !important;
+}
+
+.modal-body .form-group select{
+    box-shadow: 2px 2px 2px #dbdbdb;
+    background-color: #f7fbfa;
+}
+.modal-body .form-group textarea{
+    box-shadow: 2px 2px 2px #dbdbdb;
+    background-color: #f7fbfa;
+}
+.modal-body .input_shadow{
+    box-shadow: 2px 2px 2px #dbdbdb;
+    background-color: #f7fbfa;
+}
+/*-------------- Calendar Icon --------------*/
+.calendar{
+    position: relative;
+}
+.icon-Calendar-icon{
+    position: absolute;
+    right: 0;
+    transform: translate(-20px, -37px);
+    font-size: 2em;
+}
+
+/*------------------ Modal Body Buttons-----------------*/
+.body_button{
+    max-width:225px;
+}
+.btn-outline-success {
+    color: #0d0e0d;
+    font-weight: bold;
+    font-size: 1em;
+}
+.button_shadow{
+    box-shadow: 2px 2px 2px #dbdbdb;
+    background-color: #f7fbfa;
+}
+.body_buttonbg{
+    background-color: #f7fbfa;
+    height: 45px;
+    box-shadow: 2px 2px 2px #dbdbdb;
+    background-color: #f7fbfa;
+}
+.modal-body .form-control-file{
+    height: 27px;
+}
+.modal_body_button{
+    padding-top: 30px;
+    padding-left: 112px;
+}
+
+/*------------------ Modal Footer-----------------*/
+.modal-footer{
+    border-top: none;
+}
+.footer_button{
+    background-color: transparent;
+    border-color:transparent;
+}
+
+
+@media (max-width: 1200px) {
+    .form-group {
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 1025px) {
+    .modal_body_button .form-group{
+        margin-right: 0px !important;
+    }
+    .body_button_second{
+        margin-top: 55px;
+    }
+    .footer_button_choose{
+        text-align: center !important;
+    }
+    .modal_body_button{
+        text-align: center !important;
+    }
+    
+}
+
+@media (max-width: 991px) {
+    
+    .form-group.input-box .form-control {
+        padding: 30px 20px;
+    }
+    .form-group.submit-box {
+        margin-bottom: 20px;
+    }
+    .dss_login_section .submit_button {
+        padding: 14px 23px;
+    }
+    .form-group {
+        margin-bottom: 10px;
+    }
+}
+@media (max-width:769){
+    .modal-footer{
+        padding-top: 0px !important;
+    }
+}
+
+@media (max-width: 426px) {
+    .footer_button_choose{
+    text-align: center;
+    }
+    .modal_body_button{
+    text-align: center !important;
+}
+    .modal_body_button{
+        padding: 0px!important;
+    }
+    .body_button_second {
+        margin-top: 25px !important;
+    }
+
+}
+@media (max-width: 375px){
+    .modal-body .form-group #mpr {
+        padding-right: none !important;
+    }
+
+    .modal-footer .footer_button{
+    padding: 0px;
+    } 
+    .body_button_second {
+    margin-top: 25px !important;
+}
+
+
+}
+@media (max-width: 321px){
+    .modal-footer .footer_button{
+        margin-right: 0px !important;
+        border: 1px solid rgb(240, 238, 235);
+        border-radius: 5px;
+    } 
+}
